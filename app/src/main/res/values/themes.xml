@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 밝은 테마 고정. 다크 테마면 웹뷰가 사이트를 억지로 어둡게 칠한다. -->
+    <style name="Theme.MakerHub" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">#FF7B2FF7</item>
+        <item name="android:colorPrimary">#FF7B2FF7</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+</resources>

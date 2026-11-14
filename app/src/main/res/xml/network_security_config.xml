@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- lmphone 을 LAN 주소(http://192.168.x.x:8787)로도 열 수 있게 평문 HTTP 를 허용한다. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
